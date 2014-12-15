@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<package name="search" namespace="/" extends="struts-default">
+	<action name="searchAction" class="com.hkrt.action.SearchAction">
+		<result name="searchResults">/searchResults.jsp</result>
+	</action>
+	<action name="showAllNewsAction" class="com.hkrt.action.NewsAction">
+		<result name="allNews">/allNews.jsp</result>
+	</action>
+</package>
+
+
+</struts>    

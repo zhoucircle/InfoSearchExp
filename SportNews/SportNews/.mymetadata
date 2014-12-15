@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="SportNews"
+  id="myeclipse.1418462459626"
+  context-root="/SportNews"
+  j2ee-spec="5.0"
+  archive="SportNews.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

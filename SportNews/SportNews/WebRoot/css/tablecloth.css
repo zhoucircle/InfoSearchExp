@@ -1,0 +1,104 @@
+/* 
+
+	TableCloth	
+	by Alen Grakalic, brought to you by cssglobe.com
+	
+*/
+/* tablecloth styles */
+
+tr.even td{background:#e5f1f4;}
+tr.odd td{background:#f8fbfc;}
+
+th.over, tr.even th.over, tr.odd th.over{background:#4a98af;}
+th.down, tr.even th.down, tr.odd th.down{background:#bce774;}
+th.selected, tr.even th.selected, tr.odd th.selected{}
+
+td.over, tr.even td.over, tr.odd td.over{background:#ecfbd4;}
+td.down, tr.even td.down, tr.odd td.down{background:#bce774;color:#fff;}
+td.selected, tr.even td.selected, tr.odd td.selected{background:#bce774;color:#555;}
+
+/* use this if you want to apply different styleing to empty table cells*/
+td.empty, tr.odd td.empty, tr.even td.empty{background:#fff;}
+
+/* general styles */
+
+table, td{
+	font:100% Arial, Helvetica, sans-serif; 
+}
+table{width:90%;border-collapse:collapse;margin:10px 5% 30px 5%;}
+th, td{text-align:left;padding:.5em;border:1px solid #fff;}
+th{background:#328aa4 url(../images/tr_back.gif) repeat-x;color:#fff;}
+td{background:#e5f1f4;}
+
+
+body{
+	
+	padding:0;
+	
+	font:70% Arial, Helvetica, sans-serif; 
+	color:#555;
+	line-height:150%;
+	text-align:left;
+	background: #f1f1f1;
+}
+a{
+	text-decoration:none;
+	text-align:center;
+	color:#057fac;
+
+}
+a:hover{
+	text-decoration:none;
+	color:#999;
+}
+h1{
+	font-size:140%;
+	margin:0 20px;
+	line-height:80px;	
+	font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+h2{
+	font-size:120%;
+}
+#container{
+	margin:0px auto 0 auto;
+	width:960px;
+	background:#fff;
+	padding-bottom:20px;
+}
+#content{margin:0 20px;}
+p.sig{	
+	margin:0 auto;
+	width:680px;
+	padding:1em 0;
+}
+form{
+	margin:1em 0;
+	padding:.2em 20px;
+	background:#eee;
+}
+
+button { /* here you can change the properties of the submit button */
+	cursor: pointer;
+	width: 8%;
+	height: 38px;
+	line-height: 38px;
+	border: none;
+	color: #FFF;
+	margin: 20px 5% 5px auto;
+	border-radius: 3px;
+	display: block;
+	font-size: 15px;
+	background: #94B84B;
+	-webkit-box-shadow: 0 4px 0 #729131;
+	box-shadow: 0 4px 0 #729131;
+}
+
+button:hover {
+	background-color: #729131;
+	-webkit-transition: background 0.3s ease-in-out;
+	-moz-transition: background 0.3s ease-in-out;
+	-o-transition: background 0.3s ease-in-out;
+	-ms-transition: background 0.3s ease-in-out;
+	transition: background 0.3s ease-in-out;
+}
